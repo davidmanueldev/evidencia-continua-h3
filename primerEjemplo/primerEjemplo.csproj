@@ -52,6 +52,36 @@
     <Compile Include="Ejercicio10.Designer.cs">
       <DependentUpon>Ejercicio10.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicio11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio11.Designer.cs">
+      <DependentUpon>Ejercicio11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio12.Designer.cs">
+      <DependentUpon>Ejercicio12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio17.Designer.cs">
+      <DependentUpon>Ejercicio17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio18.Designer.cs">
+      <DependentUpon>Ejercicio18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio19.Designer.cs">
+      <DependentUpon>Ejercicio19.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ejercicio7.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +149,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio10.resx">
       <DependentUpon>Ejercicio10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio11.resx">
+      <DependentUpon>Ejercicio11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio12.resx">
+      <DependentUpon>Ejercicio12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio17.resx">
+      <DependentUpon>Ejercicio17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio18.resx">
+      <DependentUpon>Ejercicio18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio19.resx">
+      <DependentUpon>Ejercicio19.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio3.resx">
       <DependentUpon>Ejercicio3.cs</DependentUpon>

@@ -141,5 +141,85 @@ namespace primerEjemplo
             // Ocultar este formulario
             this.Hide();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void archivosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void forHastaEl5ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del formulario que deseas abrir
+            Ejercicio11 ejercicio11 = new Ejercicio11(this);
+
+            // Mostrar el formulario
+            ejercicio11.Show();
+
+            // Ocultar este formulario
+            this.Hide();
+        }
+
+        private void sumaDel1Al100ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del formulario que deseas abrir
+            Ejercicio17 ejercicio17 = new Ejercicio17(this);
+
+            // Mostrar el formulario
+            ejercicio17.Show();
+
+            // Ocultar este formulario
+            this.Hide();
+        }
+
+        private void evidenciaProcesualToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void evidenciaContinuaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del formulario que deseas abrir
+            Ejercicio12 ejercicio12 = new Ejercicio12(this);
+
+            // Mostrar el formulario
+            ejercicio12.Show();
+
+            // Ocultar este formulario
+            this.Hide();
+        }
+
+        private void sumarNBreak9ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del formulario que deseas abrir
+            Ejercicio18 ejercicio18 = new Ejercicio18(this);
+
+            // Mostrar el formulario
+            ejercicio18.Show();
+
+            // Ocultar este formulario
+            this.Hide();
+        }
+
+        private void serie123123ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del formulario que deseas abrir
+            Ejercicio19 ejercicio19 = new Ejercicio19(this);
+
+            // Mostrar el formulario
+            ejercicio19.Show();
+
+            // Ocultar este formulario
+            this.Hide();
+        }
     }
 }

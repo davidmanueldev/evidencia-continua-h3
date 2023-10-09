@@ -42,8 +42,20 @@
             this.trianguloDeNúmerosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.apilarDeFormaTriangularToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.evidenciaProcesualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.forHastaEl5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mostrarAñosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.paresImparesHastaNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fibonacciImparesHasta50ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dvisiblesEntre3Y5HastaNNaturalesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sumaDel1Al100ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sumarNBreak9ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.serie123123ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sumaDeImparesHastaNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.repositoriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,6 +80,7 @@
             this.archivosToolStripMenuItem.Name = "archivosToolStripMenuItem";
             this.archivosToolStripMenuItem.Size = new System.Drawing.Size(79, 24);
             this.archivosToolStripMenuItem.Text = "Archivos";
+            this.archivosToolStripMenuItem.Click += new System.EventHandler(this.archivosToolStripMenuItem_Click);
             // 
             // evidenciaContinuaToolStripMenuItem
             // 
@@ -85,6 +98,7 @@
             this.evidenciaContinuaToolStripMenuItem.Name = "evidenciaContinuaToolStripMenuItem";
             this.evidenciaContinuaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.evidenciaContinuaToolStripMenuItem.Text = "Evidencia Continua";
+            this.evidenciaContinuaToolStripMenuItem.Click += new System.EventHandler(this.evidenciaContinuaToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
@@ -158,9 +172,86 @@
             // 
             // evidenciaProcesualToolStripMenuItem
             // 
+            this.evidenciaProcesualToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.forHastaEl5ToolStripMenuItem,
+            this.toolStripMenuItem3,
+            this.mostrarAñosToolStripMenuItem,
+            this.paresImparesHastaNToolStripMenuItem,
+            this.fibonacciImparesHasta50ToolStripMenuItem,
+            this.dvisiblesEntre3Y5HastaNNaturalesToolStripMenuItem,
+            this.sumaDel1Al100ToolStripMenuItem,
+            this.sumarNBreak9ToolStripMenuItem,
+            this.serie123123ToolStripMenuItem,
+            this.sumaDeImparesHastaNToolStripMenuItem});
             this.evidenciaProcesualToolStripMenuItem.Name = "evidenciaProcesualToolStripMenuItem";
             this.evidenciaProcesualToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.evidenciaProcesualToolStripMenuItem.Text = "Evidencia Procesual";
+            this.evidenciaProcesualToolStripMenuItem.Click += new System.EventHandler(this.evidenciaProcesualToolStripMenuItem_Click);
+            // 
+            // forHastaEl5ToolStripMenuItem
+            // 
+            this.forHastaEl5ToolStripMenuItem.Name = "forHastaEl5ToolStripMenuItem";
+            this.forHastaEl5ToolStripMenuItem.Size = new System.Drawing.Size(354, 26);
+            this.forHastaEl5ToolStripMenuItem.Text = "1. For hasta el 5";
+            this.forHastaEl5ToolStripMenuItem.Click += new System.EventHandler(this.forHastaEl5ToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(354, 26);
+            this.toolStripMenuItem3.Text = "2.Sumar n break 6";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            // 
+            // mostrarAñosToolStripMenuItem
+            // 
+            this.mostrarAñosToolStripMenuItem.Name = "mostrarAñosToolStripMenuItem";
+            this.mostrarAñosToolStripMenuItem.Size = new System.Drawing.Size(354, 26);
+            this.mostrarAñosToolStripMenuItem.Text = "3. Mostrar Años";
+            // 
+            // paresImparesHastaNToolStripMenuItem
+            // 
+            this.paresImparesHastaNToolStripMenuItem.Name = "paresImparesHastaNToolStripMenuItem";
+            this.paresImparesHastaNToolStripMenuItem.Size = new System.Drawing.Size(354, 26);
+            this.paresImparesHastaNToolStripMenuItem.Text = "4. Pares + Impares hasta n";
+            // 
+            // fibonacciImparesHasta50ToolStripMenuItem
+            // 
+            this.fibonacciImparesHasta50ToolStripMenuItem.Name = "fibonacciImparesHasta50ToolStripMenuItem";
+            this.fibonacciImparesHasta50ToolStripMenuItem.Size = new System.Drawing.Size(354, 26);
+            this.fibonacciImparesHasta50ToolStripMenuItem.Text = "5. Fibonacci Impares hasta 50";
+            // 
+            // dvisiblesEntre3Y5HastaNNaturalesToolStripMenuItem
+            // 
+            this.dvisiblesEntre3Y5HastaNNaturalesToolStripMenuItem.Name = "dvisiblesEntre3Y5HastaNNaturalesToolStripMenuItem";
+            this.dvisiblesEntre3Y5HastaNNaturalesToolStripMenuItem.Size = new System.Drawing.Size(354, 26);
+            this.dvisiblesEntre3Y5HastaNNaturalesToolStripMenuItem.Text = "6. Dvisibles entre 3 y 5 hasta n naturales";
+            // 
+            // sumaDel1Al100ToolStripMenuItem
+            // 
+            this.sumaDel1Al100ToolStripMenuItem.Name = "sumaDel1Al100ToolStripMenuItem";
+            this.sumaDel1Al100ToolStripMenuItem.Size = new System.Drawing.Size(354, 26);
+            this.sumaDel1Al100ToolStripMenuItem.Text = "7. Suma del 1 al 100";
+            this.sumaDel1Al100ToolStripMenuItem.Click += new System.EventHandler(this.sumaDel1Al100ToolStripMenuItem_Click);
+            // 
+            // sumarNBreak9ToolStripMenuItem
+            // 
+            this.sumarNBreak9ToolStripMenuItem.Name = "sumarNBreak9ToolStripMenuItem";
+            this.sumarNBreak9ToolStripMenuItem.Size = new System.Drawing.Size(354, 26);
+            this.sumarNBreak9ToolStripMenuItem.Text = "8. Sumar n break 9";
+            this.sumarNBreak9ToolStripMenuItem.Click += new System.EventHandler(this.sumarNBreak9ToolStripMenuItem_Click);
+            // 
+            // serie123123ToolStripMenuItem
+            // 
+            this.serie123123ToolStripMenuItem.Name = "serie123123ToolStripMenuItem";
+            this.serie123123ToolStripMenuItem.Size = new System.Drawing.Size(354, 26);
+            this.serie123123ToolStripMenuItem.Text = "9. Serie 123123";
+            this.serie123123ToolStripMenuItem.Click += new System.EventHandler(this.serie123123ToolStripMenuItem_Click);
+            // 
+            // sumaDeImparesHastaNToolStripMenuItem
+            // 
+            this.sumaDeImparesHastaNToolStripMenuItem.Name = "sumaDeImparesHastaNToolStripMenuItem";
+            this.sumaDeImparesHastaNToolStripMenuItem.Size = new System.Drawing.Size(354, 26);
+            this.sumaDeImparesHastaNToolStripMenuItem.Text = "10. Suma de impares hasta n";
             // 
             // repositoriosToolStripMenuItem
             // 
@@ -174,11 +265,32 @@
             this.cerrarToolStripMenuItem.Size = new System.Drawing.Size(63, 24);
             this.cerrarToolStripMenuItem.Text = "Cerrar";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(309, 66);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(186, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "EVIDENCIA CONTINUA H3 🐀";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(304, 131);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(191, 16);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "David Manuel Mamani Huanca";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
@@ -209,6 +321,18 @@
         private System.Windows.Forms.ToolStripMenuItem mCMDe2NúmerosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem trianguloDeNúmerosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem apilarDeFormaTriangularToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripMenuItem forHastaEl5ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem mostrarAñosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem paresImparesHastaNToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fibonacciImparesHasta50ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dvisiblesEntre3Y5HastaNNaturalesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sumaDel1Al100ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sumarNBreak9ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem serie123123ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sumaDeImparesHastaNToolStripMenuItem;
+        private System.Windows.Forms.Label label2;
     }
 }
 
